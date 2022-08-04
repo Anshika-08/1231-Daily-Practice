@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <script type="text/javascript">
+  function submit(){
+   var n1=document.getElementById('i1').value;
+   var n2=document.getElementById("i2").value;
+   n1=Number(n1);
+   n2=Number(n2);
+   if(isNaN(n1) || isNaN(n2)){
+    document.getElementById("p1").innerHTML="<span>Enter a number</span>"
+   }
+   else{
+    var total=parseInt(n1/n2);
+    var left=n1-(total*n2);
+    document.getElementById("p1").innerHTML+=total+" left with balls : "+left;
+   }
+  }
+ </script>
+</head>
+<body>
+ <label>Enter Number of balls</label>
+ <input type="text" id="i1"> 
+ <br>
+ <label>Enter number of teams</label>
+ <input type="text" id="i2"> 
+ <br>
+ <button onClick="submit()" >find</button>
+ <p>
+ <p id="p1">Each team will get: </p> 
+</body>
+</html>
