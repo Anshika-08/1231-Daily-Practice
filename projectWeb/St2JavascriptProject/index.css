@@ -1,0 +1,36 @@
+body {
+  background-color: #f26e6c;
+}
+.h1txt {
+  color: black;
+}
+#myInput {
+  text-align: center;
+  font-size: medium;
+}
+#myInput input {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+::placeholder {
+  color: #D61C4E;
+}
+#myInput button {
+  background-color: #4F091D;
+  color: #F5EEDC;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+#createShape {
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 5%;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
