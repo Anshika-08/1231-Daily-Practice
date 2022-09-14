@@ -1,0 +1,15 @@
+.one {
+    font-family: inherit;
+    background: #000;
+    color: #fff;
+}
+.two {
+    font-family: inherit;
+    background: red;
+    color: black;
+}
+.three {
+    font-family: inherit;
+    background: yellow;
+    color: black;
+}
